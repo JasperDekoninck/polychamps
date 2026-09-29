@@ -351,11 +351,11 @@ Background sections
 .home {
   padding: 150px 0 100px 0;
   background-color: black;
-  background: url("../images/Polychamps_background.png") no-repeat center center fixed;
-  -webkit-background-size: auto;
-  -moz-background-size: auto;
-  -o-background-size: auto;
-  background-size:auto;
+  background: #000 url("../images/Polychamps_background.png") no-repeat center bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   height: 100%;
 }
 
@@ -429,11 +429,11 @@ Background sections
 	.home{
 		padding: 150px 0 100px 0;
   background-color: black;
-  background: url("../images/Polychamps_background.png") no-repeat center center fixed;
-  -webkit-background-size: 200vh auto;
-  -moz-background-size: 200vh auto;
-  -o-background-size: 200vh auto;
-  background-size: 200vh auto;
+  background: #000 url("../images/Polychamps_background.png") no-repeat center bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	}
 
 }
@@ -449,10 +449,10 @@ Background sections
 	}
 
 	.home{
-		-webkit-background-size: 200vh auto;
-  -moz-background-size: 200vh auto;
-  -o-background-size: 200vh auto;
-  background-size: 200vh auto;
+		-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	}
 
 }
